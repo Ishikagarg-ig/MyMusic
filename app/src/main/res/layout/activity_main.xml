@@ -1,0 +1,1346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:fitsSystemWindows="true"
+        android:id="@+id/appbar"
+        android:background="#065a66">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|enterAlwaysCollapsed">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+<ImageView
+    android:layout_width="150dp"
+    android:layout_height="150dp"
+    android:src="@drawable/image"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"/>
+
+            </RelativeLayout>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                <ImageView
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/i_wang"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                <TextView
+                    android:layout_marginStart="10dp"
+                    android:id="@+id/music1"
+                    android:layout_width="280dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:text="Wang Da Naap"
+                    android:textStyle="normal"
+                    android:textSize="20dp"
+                    android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Wang Da Naap - Ammy Virk" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@drawable/i_jamila"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginStart="10dp"
+                                android:id="@+id/music2"
+                                android:layout_width="280dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="Jamila"
+                                android:textStyle="normal"
+                                android:textSize="20dp"
+                                android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Jamila - Maninder Buttar" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@drawable/i_zindagi"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginStart="10dp"
+                                android:id="@+id/music3"
+                                android:layout_width="280dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="Zindagi di paudi"
+                                android:textStyle="normal"
+                                android:textSize="20dp"
+                                android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Blessed - Millind Gaba" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@drawable/i_tere"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginStart="10dp"
+                                android:id="@+id/music4"
+                                android:layout_width="280dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="Tere Bin Kive"
+                                android:textStyle="normal"
+                                android:textSize="20dp"
+                                android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Tere Bin Kive - Ramji Gulati" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@drawable/i_yaari"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginStart="10dp"
+                                android:id="@+id/music5"
+                                android:layout_width="280dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="Yaari"
+                                android:textStyle="normal"
+                                android:textSize="20dp"
+                                android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Yaari - Nikk" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@drawable/i_ve"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginStart="10dp"
+                                android:id="@+id/music6"
+                                android:layout_width="280dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="Ve Maahi"
+                                android:textStyle="normal"
+                                android:textSize="20dp"
+                                android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Kesari - Arjit Singh,Asees Kaur" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="70dp"
+                            android:layout_height="80dp"
+                            android:src="@drawable/i_tenu"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginStart="10dp"
+                                android:id="@+id/music19"
+                                android:layout_width="280dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="Tenu Vekh Pyar Kardi"
+                                android:textStyle="normal"
+                                android:textSize="20dp"
+                                android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Tenu Vekh Pyar Kardi - Meenakshi Sharma" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="70dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/i_she"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginStart="10dp"
+                                android:id="@+id/music7"
+                                android:layout_width="280dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="She Don't Know"
+                                android:textStyle="normal"
+                                android:textSize="20dp"
+                                android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Blessed - Millind Gaba" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@drawable/i_def2"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginStart="10dp"
+                                android:id="@+id/music21"
+                                android:layout_width="280dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="Defaulter 2"
+                                android:textStyle="normal"
+                                android:textSize="20dp"
+                                android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Defaulter 2 - R Nait" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@drawable/i_feel2"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginStart="10dp"
+                                android:id="@+id/music22"
+                                android:layout_width="280dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="Feelingaa"
+                                android:textStyle="normal"
+                                android:textSize="20dp"
+                                android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Feelingaa - Kay Vee Singh" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/i_feel"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginStart="10dp"
+                                android:id="@+id/music23"
+                                android:layout_width="280dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="Feelingaa 2"
+                                android:textStyle="normal"
+                                android:textSize="20dp"
+                                android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Feelingaa 2 - Kay Vee singh" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:src="@drawable/i_def"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginStart="10dp"
+                                android:id="@+id/music8"
+                                android:layout_width="280dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="Defaulter"
+                                android:textStyle="normal"
+                                android:textSize="20dp"
+                                android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Defaulter - R-Nait" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/i_sun"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginStart="10dp"
+                                android:id="@+id/music20"
+                                android:layout_width="280dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="Sunakhi"
+                                android:textStyle="normal"
+                                android:textSize="20dp"
+                                android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Sunakhi - Kaur B" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/i_veh"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginStart="15dp"
+                                android:id="@+id/music9"
+                                android:layout_width="280dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="Veham"
+                                android:textStyle="normal"
+                                android:textSize="20dp"
+                                android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Veham - Dilpreet Dhillon" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/i_viah"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginStart="15dp"
+                                android:id="@+id/music10"
+                                android:layout_width="280dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="Viah"
+                                android:textStyle="normal"
+                                android:textSize="20dp"
+                                android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Viah - Bling Singh" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/i_kya"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginStart="15dp"
+                                android:id="@+id/music11"
+                                android:layout_width="280dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="Kya Baat Ay"
+                                android:textStyle="normal"
+                                android:textSize="20dp"
+                                android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Kya Baat Ay - Hardy Sandhu" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/i_daru"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginStart="15dp"
+                                android:id="@+id/music12"
+                                android:layout_width="280dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="Daru Badnaam"
+                                android:textStyle="normal"
+                                android:textSize="20dp"
+                                android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Daru Badnam - Kamal Kahlon" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="70dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/i_koi"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginStart="15dp"
+                                android:id="@+id/music13"
+                                android:layout_width="280dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="Koi Vi Nahi"
+                                android:textStyle="normal"
+                                android:textSize="20dp"
+                                android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Koi Vi Nahi - Shirley Setia " />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/i_lam"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginStart="15dp"
+                                android:id="@+id/music14"
+                                android:layout_width="280dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="Lamberghini"
+                                android:textStyle="normal"
+                                android:textSize="20dp"
+                                android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Lamberghini - Ragini" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/i_mere"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginStart="15dp"
+                                android:id="@+id/music15"
+                                android:layout_width="280dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="Mere Wala Sardar"
+                                android:textStyle="normal"
+                                android:textSize="20dp"
+                                android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Mere Wala Sardar - Mrinali Gulati" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/i_sak"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginStart="15dp"
+                                android:id="@+id/music16"
+                                android:layout_width="280dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="Sakhiyaan"
+                                android:textStyle="normal"
+                                android:textSize="20dp"
+                                android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Sakhiyaan - Maninder Buttar" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/i_vas"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginStart="15dp"
+                                android:id="@+id/music17"
+                                android:layout_width="280dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="Vaaste"
+                                android:textStyle="normal"
+                                android:textSize="20dp"
+                                android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Vaaste - Dhvani Bhanushali" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <LinearLayout
+                        android:layout_width="80dp"
+                        android:layout_height="80dp">
+
+                        <ImageView
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="5dp"
+                            android:layout_width="60dp"
+                            android:layout_height="60dp"
+                            android:src="@drawable/i_karta"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="330dp"
+                        android:layout_height="80dp">
+
+                        <LinearLayout
+                            android:layout_width="300dp"
+                            android:layout_height="40dp">
+                            <TextView
+                                android:layout_marginStart="15dp"
+                                android:id="@+id/music18"
+                                android:layout_width="280dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_height="wrap_content"
+                                android:text="Viah Karta"
+                                android:textStyle="normal"
+                                android:textSize="20dp"
+                                android:textColor="#D80C0C"/>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="40dp"
+                            android:layout_marginStart="-290dp"
+                            android:layout_width="330dp"
+                            android:layout_height="40dp">
+
+                            <TextView
+                                android:layout_width="280dp"
+                                android:textSize="16dp"
+                                android:layout_height="wrap_content"
+                                android:hint="Viah Karta - Jaggi Kharoud" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

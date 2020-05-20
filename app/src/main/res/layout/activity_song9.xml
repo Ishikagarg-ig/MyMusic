@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Song1"
+    android:background="@drawable/background">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/circularImage"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        app:civ_border_color="#000"
+        />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/play"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/circularImage"/>
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@+id/circularImage"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="165dp"
+        android:layout_marginRight="40dp"
+        android:layout_toLeftOf="@+id/play"
+        android:background="@drawable/pause" />
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/circularImage"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginRight="40dp"
+        android:layout_toRightOf="@+id/play"
+        android:background="@drawable/stop" />
+
+</RelativeLayout>

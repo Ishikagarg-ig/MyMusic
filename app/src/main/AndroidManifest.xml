@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.musicplayer">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Song23"></activity>
+        <activity android:name=".Song22" />
+        <activity android:name=".Song21" />
+        <activity android:name=".Song20" />
+        <activity android:name=".Song19" />
+        <activity android:name=".Song18" />
+        <activity android:name=".Song17" />
+        <activity android:name=".Song16" />
+        <activity android:name=".Song15" />
+        <activity android:name=".Song14" />
+        <activity android:name=".Song13" />
+        <activity android:name=".Song12" />
+        <activity android:name=".Song11" />
+        <activity android:name=".Song10" />
+        <activity android:name=".Song9" />
+        <activity android:name=".Song8" />
+        <activity android:name=".Song7" />
+        <activity android:name=".Song6" />
+        <activity android:name=".Song5" />
+        <activity android:name=".Song4" />
+        <activity android:name=".Song3" />
+        <activity android:name=".Song2" />
+        <activity android:name=".Song1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
